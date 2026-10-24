@@ -201,9 +201,11 @@ MAIL_PASS=your_16_character_app_password
 PORT=3000
 ```
 
+for record print put the .env file without your password (MAIL_PASS=your_16_character_app_password)
+
 - Replace `yourgmail@gmail.com` with the email address where you want to receive messages.
 - Replace the password with a Google App Password, not your regular Gmail password.
-- Generate one at [Google App Passwords](<https://myaccount.google.com/apppasswords?utm_source=chatgpt.com>). Two-Step Verification is generally required.
+- Generate one at [Google App Passwords](<https://myaccount.google.com/apppasswords>). Two-Step Verification is generally required.
 
 ## 8. Run the project
 
@@ -216,3 +218,80 @@ node server.js
 Open `http://localhost:3000`, fill out the contact form and submit it. The message will be emailed to the configured Gmail account if sending succeeds.
 
 Important: Keep `.env` private and never upload it to GitHub. Before publishing your portfolio online, add rate limiting and spam protection to prevent contact-form abuse.
+
+
+
+## Step 1: Initialize your project
+
+Run:
+
+```
+npm init -y
+```
+
+This creates `package.json`.
+
+## Step 2: Install the required packages
+
+powershell
+
+```
+npm install express nodemailer dotenv
+```
+
+Wait until installation finishes successfully.
+
+## Step 3: Check your file structure
+
+Make sure your project looks like this:
+
+text
+
+```
+portfolio_ex10_rec/
+├── public/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── server.js
+├── .env
+├── package.json
+└── node_modules/
+```
+
+Important: Your `.env` file and `server.js` must be in the same main folder.
+
+## Step 4: Start the server
+
+powershell
+
+```
+node server.js
+```
+
+You should see:
+
+text
+
+```
+http://localhost:3000
+```
+
+Open that address in your browser.
+
+## Step 5: Test the contact form
+
+Submit a message using the portfolio form. If your `.env` contains a valid Gmail address and Google App Password, the message should be sent to that Gmail account.
+
+Example `.env`:
+
+env
+
+```
+MAIL_USER=yourgmail@gmail.com
+MAIL_PASS=your16characterapppassword
+PORT=3000
+```
+
+Do not include quotes around the values or share your app password.
+
