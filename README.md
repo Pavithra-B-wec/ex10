@@ -1,4 +1,6 @@
-Here is a simple, minimal portfolio website with separate `HTML`, `CSS`, `script.js`, `server.js`, and `.env` files. The contact form sends messages to your Gmail using your App Password.
+This code is the template. Each of you has to replace the placeholder details with your own information in the code.
+
+simple, minimal portfolio website with separate `HTML`, `CSS`, `script.js`, `server.js`, and `.env` files. The contact form sends messages to your Gmail using your App Password.
 
 ## 1. Folder structure
 
