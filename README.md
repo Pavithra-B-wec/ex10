@@ -295,3 +295,10 @@ PORT=3000
 
 Do not include quotes around the values or share your app password.
 
+<img width="1240" height="1428" alt="image" src="https://github.com/user-attachments/assets/e529dc63-890f-43a1-81ff-0a8cbedea80c" />
+<img width="1804" height="872" alt="image" src="https://github.com/user-attachments/assets/f7d4930e-49b0-4470-9084-620f0bbba9f5" />
+<img width="1617" height="973" alt="image" src="https://github.com/user-attachments/assets/d12461e1-d66e-47ef-b037-9644c95c100e" />
+
+
+
+
